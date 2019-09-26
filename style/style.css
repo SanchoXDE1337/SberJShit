@@ -1,0 +1,33 @@
+* {
+    border: mediumseagreen 2px solid;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    width: 50vw;
+    height: 40vh;
+    background-color: teal;
+    color: deeppink;
+}
+
+div {
+    display: inline-block;
+}
+
+div a {
+    text-decoration: none;
+}
+
+#title h1, h2 {
+    margin: 10%;
+    font-size: 5rem;
+    border: blueviolet dashed 4px;
+    font-family: sans-serif;
+}
+
+#title :hover {
+    transition-duration: 0.8s ;
+    color: aquamarine;
+}
